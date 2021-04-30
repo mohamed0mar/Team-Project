@@ -1,0 +1,97 @@
+/* Ahmed Goda services section*/
+/* ---------------Google Fonts------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+/* font-family: 'Carter One', cursive; */
+
+/* font-family: 'Ubuntu', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+
+/* ------------------CSS Reset--------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------------Our Services Section-------------------------- */
+.services{
+   background-color: transparent;
+}
+.services .serviceshead-section{
+    text-align: center;
+}
+
+.services .serviceshead-section .services-head{
+    color: #282c3f;
+    font-family: 'Carter One', cursive;
+    font-size: 3rem;
+}
+
+.services .serviceshead-section .services-head span{
+    color: crimson;
+}
+
+.services .serviceshead-section .divider{
+    height: 4px;
+    width: 80px;
+    background-color: crimson;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+.services .serviceshead-section .services-subhead{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
+    color: rgb(58, 58, 58);
+}
+
+.services .services-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services-section.ss{
+    background-color: #FFF;
+}
+
+.services .services-section .info{
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.services .services-section .info a{
+    text-decoration: none;
+}
+
+
+.services .services-section .info .fa{
+    color: crimson;
+    font-size: 3rem;
+    margin: 6px 0;
+}
+
+.services .services-section .info .info-title{
+    font-family: 'Acme', sans-serif;
+    color: #282c3f;
+    font-size: 2rem;
+}
+
+.services .services-section .info .info-subtitle{
+    font-family: 'ubuntu';
+    font-size: 1rem;
+    color: rgb(1, 1, 1);
+}
+
+.services .services-section .info:hover{
+    box-shadow: 0 8px 11x 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgb(167,167,167);
+    background-color: rgba(0,0,0,.5);
+    transition: 0.3s ease-out;
+    scale:(1.2);
+}
